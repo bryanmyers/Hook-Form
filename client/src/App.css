@@ -1,0 +1,7 @@
+main {
+  width: 100%;
+  max-width: 630px;
+  margin-inline: auto;
+  padding: 50px;
+  box-sizing: border-box
+}
