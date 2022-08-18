@@ -16,15 +16,15 @@ const Form = (props) => {
   return (
     <form>
       <label htmlFor='firstName'>First Name</label>
-      <input type='text' name='firstName' id='firstName' onBlur={handleChange}></input>
+      <input type='text' name='firstName' id='firstName' onChange={handleChange}></input>
       <label htmlFor='lastName'>Last Name</label>
-      <input type='text' name='lastName' id='lastName' onBlur={handleChange}></input>
+      <input type='text' name='lastName' id='lastName' onChange={handleChange}></input>
       <label htmlFor='email'>Email</label>
-      <input type='text' name='email' id='email' onBlur={handleChange}></input>
+      <input type='text' name='email' id='email' onChange={handleChange}></input>
       <label htmlFor='password'>Password</label>
-      <input type='password' name='password' id='password' onBlur={handleChange}></input>
+      <input type='password' name='password' id='password' onChange={handleChange}></input>
       <label htmlFor='passwordConfirm'>Password Confirm</label>
-      <input type='password' name='passwordConfirm' id='passwordConfirm' onBlur={handleChange}></input>
+      <input type='password' name='passwordConfirm' id='passwordConfirm' onChange={handleChange}></input>
     </form>
   )
 }
