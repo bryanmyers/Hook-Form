@@ -20,7 +20,9 @@ function App() {
   return (
     <main>
       <Form user={user} setUser={setUser} />
-      <Display user={user} setUser={setUser} />
+
+      {/* Display component is read only so no need for setUser */}
+      <Display user={user} />
     </main>
   );
 }

@@ -2,10 +2,11 @@ import React from 'react'
 
 import styles from '../static/Display.module.css'
 
+//this component is read only so no need for setUser
 const Display = (props) => {
 
   //not needed, but makes things easier. otherwise props.blahblah everything
-  const {user, setUser} = props
+  const {user} = props
 
   return (
     <div className={styles.display}>
